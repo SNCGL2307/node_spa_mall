@@ -93,6 +93,8 @@ const goods = [
       await Cart.deleteOne({goodsId});
     }
 
+    
+
     res.status(200).json({result: "success"});
   })
 
